@@ -1,5 +1,8 @@
 require_relative 'contact'
+require_relative 'rolodex'
 require 'sinatra'
+
+@@rolodex = Rolodex.new
 
 get '/' do
   @crm_app_name = "My CRM"
@@ -31,3 +34,4 @@ get "/contactsedit" do
   @contacts_edit = "Edit a Contact!!!"
   erb :contactsedit
 end
+
