@@ -11,11 +11,75 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-h1, h2, h3, h4, h5, h5, p, a {
-  font-family: Helvetica,Arial,sans-serif;  
-  font-size: 10px;
+html {
+  background:url(http://www.hopedesigns.ca/wp-content/uploads/2014/03/Toronto-Interior-Decorating-Services.png) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
 }
 
 * {
-  font: blue;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+h1, h2, h4, h5, h5, p, a {
+  font-family: Helvetica,Arial,sans-serif;  
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+.big {
+  padding: 12px;
+  width: 500px;
+  position: absolute;
+  top:15px;
+  left:15px;
+  border: 1px solid #666;
+  background-color: rgba(200, 200, 200, 0.6);
+}
+
+#menu {
+  position: absolute;
+  background-color: #000;
+  text-decoration: none;
+  left: 10px;
+  top: 25%;
+  width: 35%;
+  opacity: 0.6;
+  padding: 5px;
+  color:white;
+  font-size: :10px, bold;
+}
+
+form {
+  position: absolute;
+  top: 15%;
+  left: 10px;
+  width: 35%;
+  opacity: 0.6;
+}
+
+li {
+  list-style:none;
+}
+
+#listcontacts {
+  position: absolute;
+  top: 15%;
+  right:50%;
+  width: 40%;
+  color:white;
+  font-size: 15px;
+  font-family: Helvetica;  
+}
+
+.submit {
+  color:red;
 }

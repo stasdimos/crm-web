@@ -21,4 +21,5 @@ class Contact
     @@counter 
   end
 
+  
 end

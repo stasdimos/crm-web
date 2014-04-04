@@ -2,15 +2,24 @@
 <html>
   
   <head>
-    <title>CRM Site Blah</title>
+    <title>Dimos CRM</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  
+   <div class="big">
+      <h1> Dimos Labs CRM </h1>
+        <h3> "The Best Damn CRM in the World."<h3>
+    </div>
   <body> 
     <%= yield %>
-    <div>
-      <p>Test Paragraphy</p>
-    </div>
+ <div id="menu">
+  <p>Main menu</p>
+    <ul>
+      <li><a href="/contacts">View all contacts</a></li>
+      <li><a href="/contactsadd">Add a Contact</a></li>
+      <li><a href="/contactsid">Contact ID #</a></li>
+      <li><a href="/contactsedit">Edit a Contact</a></li>
+    </ul>
+</div>
   </body>
 
 </html>
